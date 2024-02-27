@@ -11,9 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
         vendorId: vendorId,
         userId: userId,
         token: apiKey,
-        onSuccess: (props) => {
-            console.log('GrailPay.onSuccess', props);
-        },
         onError: (error) => {
             console.log( "GrailPay.onError", error)
         },
